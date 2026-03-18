@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the work order"
+    },
+    "description": {
+      "type": "string",
+      "description": "A detailed description of the work order"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "in_progress", "completed"],
+      "description": "The current status of the work order"
+    },
+    "assigned_to": {
+      "type": "integer",
+      "description": "The ID of the user assigned to the work order"
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "The priority level of the work order"
+    },
+    "due_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "The due date and time for the work order"
+    }
+  }
+}
