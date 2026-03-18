@@ -1,0 +1,8 @@
+{
+  "message": "The given data was invalid.",
+  "errors": {
+    "status": ["The selected status is invalid."],
+    "priority": ["The selected priority is invalid."]
+  }
+}
+

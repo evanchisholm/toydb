@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": 101,
+    "title": "Replace broken printer cartridge",
+    "description": "Office printer cartridge is leaking. Replace with new cartridge and run a test print.",
+    "status": "pending",
+    "assigned_to": 12,
+    "priority": "high",
+    "due_date": "2026-03-25T17:00:00Z",
+    "created_at": "2026-03-19T14:12:03Z",
+    "updated_at": "2026-03-19T14:12:03Z"
+  },
+  "message": "Work order created successfully."
+}
+

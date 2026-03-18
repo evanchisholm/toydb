@@ -1,0 +1,9 @@
+{
+  "message": "The given data was invalid.",
+  "errors": {
+    "due_date": ["The due date is not a valid date."],
+    "status": ["The selected status is invalid."],
+    "priority": ["The selected priority is invalid."]
+  }
+}
+

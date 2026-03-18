@@ -1,0 +1,15 @@
+{
+  "data": {
+    "id": 102,
+    "title": "Schedule HVAC inspection",
+    "description": "Annual HVAC inspection request for the main building unit.",
+    "status": "in_progress",
+    "assigned_to": 7,
+    "priority": "medium",
+    "due_date": "2026-04-02T15:30:00Z",
+    "created_at": "2026-03-19T15:01:48Z",
+    "updated_at": "2026-03-19T15:01:48Z"
+  },
+  "message": "Work order created successfully."
+}
+

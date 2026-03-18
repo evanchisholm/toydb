@@ -1,0 +1,8 @@
+{
+  "message": "The given data was invalid.",
+  "errors": {
+    "assigned_to": ["The assigned_to must be an integer."],
+    "due_date": ["The due date is not a valid date."]
+  }
+}
+
