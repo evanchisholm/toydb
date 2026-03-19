@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "The unique identifier of the comment"
+        },
+        "work_order_id": {
+          "type": "integer",
+          "description": "The ID of the work order this comment belongs to"
+        },
+        "comment": {
+          "type": "string",
+          "description": "The persisted comment text"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the comment was created"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the comment was last updated"
+        }
+      },
+      "required": ["id", "work_order_id", "comment", "created_at", "updated_at"]
+    },
+    "message": {
+      "type": "string",
+      "description": "Optional human-readable success message"
+    }
+  },
+  "required": ["data"]
+}

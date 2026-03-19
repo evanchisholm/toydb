@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "comment": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10000,
+          "description": "The comment text to attach to the work order"
+        }
+      },
+      "required": ["comment"]
+    }
+  },
+  "required": ["data"]
+}
