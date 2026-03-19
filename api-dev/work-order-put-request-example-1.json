@@ -1,6 +1,8 @@
 {
-  "status": "completed",
-  "priority": "low",
-  "due_date": "2026-03-28T12:00:00Z"
+  "data": {
+    "status": "completed",
+    "priority": "low",
+    "due_date": "2026-03-28T12:00:00Z"
+  }
 }
 
