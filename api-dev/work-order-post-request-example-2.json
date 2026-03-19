@@ -1,0 +1,9 @@
+{
+  "title": "Schedule HVAC inspection",
+  "description": "Annual HVAC inspection request for the main building unit.",
+  "status": "in_progress",
+  "assigned_to": 7,
+  "priority": "medium",
+  "due_date": "2026-04-02T15:30:00Z"
+}
+
